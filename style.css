@@ -1,0 +1,203 @@
+body {
+  background-color: #232426;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Didact Gothic", sans-serif,serif;
+}
+.title {
+  color: #bb86fc;
+    text-align: center;
+    margin-top:2.5rem;
+    padding: 0;
+    font-size: 2rem;
+    letter-spacing: 1rem;
+}
+h1 {
+    margin:0;
+    padding: 0;
+}
+
+.userInput {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    margin-top: 3rem ;
+    padding: 0;
+}
+input {
+    padding:.5rem;
+    height: 15px;
+    width: 475px;
+    margin-right:1rem;
+    border-radius: 1.5rem;
+    border: 2px solid #bb86fc;
+    text-align: center;
+}
+#enter {
+  background-color: black;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 15px;
+  width: 45px;
+  transition: .5s ease-in-out;
+}
+#enter:hover {
+  background-color: #bb86fc;
+  transform: scale(1.2);
+}
+
+#myUl {
+    margin-top: 2rem;
+}
+ul {
+display: table;
+margin: 0 auto;
+}
+li {
+  color: #bb86fc;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+#doneBtn {
+    margin-left: 2rem;
+    padding: .5rem;
+    width: 45px;
+    border-radius: .5rem;
+    background-color:white;
+    color: black;
+    border: none;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+}
+#doneBtn:hover{
+  background-color: black;
+  color: white;
+  transform: scale(1.2);
+}
+
+#delBtn {
+    margin-left: 1.2rem;
+    padding: .5rem;
+    width: 45px;
+    border-radius: .5rem;
+    background-color: white;
+    color: black;
+    border: none;
+    transition: all .4s ease-in-out;
+}
+#delBtn:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.2);
+}
+
+.wrapper {
+    padding: .5rem;
+    margin-top: .5rem;
+    display: flex;
+    align-items: center;
+} 
+.done{
+  text-decoration: line-through;
+}
+
+
+
+/* body {
+  font-family: "Didact Gothic";
+  background: #3a3b3c;
+}
+
+h1 {
+  color:#bb86fc;
+  font-family: 'Didact Gothic';
+  font-size: 5vw;
+  text-align: center;
+  margin-top: -4%;
+  letter-spacing: .5rem;
+  -webkit-text-stroke: 1px black;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 15vw;
+    margin-top: 0%;
+  }
+}
+
+ul {
+  display: table;
+  margin: 0 auto;
+  font-family: 'Didact Gothic';
+  font-size: 20px;
+  color: #bb86fc;
+  text-transform: capitalize;
+}
+
+#enter {
+  font-family: 'Didact Gothic';
+  font-size: 20px;
+  border-radius: 5px;
+  width: 30em;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  #enter {
+    width: 15em;
+  }
+}
+
+#deletetodobtn {
+  font-family: 'Didact Gothic';
+  margin-left: 30px;
+  margin-top: 20px;
+  background-color: black;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+#deletetodobtn:hover {
+  background-color: #b180ed;
+  transition: background-color 0.3s ease-in;
+}
+
+#add {
+  font-family: 'Didact Gothic';
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: black;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+
+#add:hover {
+  background-color: #4049c5;
+  transition: background-color 0.2s ease-in;
+}
+
+#center {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.done {
+  text-decoration: line-through;
+  color: black;
+} */
